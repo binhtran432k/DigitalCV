@@ -28,6 +28,7 @@
     <link rel="stylesheet" href="css/tablet.css" />
     <link rel="stylesheet" href="css/mobile.css" />
     <link rel="stylesheet" href="css/font.css" />
+    <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
     <header>
@@ -107,7 +108,76 @@
     </header>
 
     <!-- Information -->
-    <section id="information"></section>
+    <section id="information" class="container">
+      <div class="row flex-column flex-sm-row p-0">
+        <div
+          id="target"
+          class="px-sm-5 py-5 px-3 col-sm-6 col"
+          style="
+            background-color: var(--bs-gray-100);
+            box-shadow: 0 0 0 50vw var(--bs-gray-100);
+            clip-path: inset(0 0 0 -50vw);
+          "
+        >
+          <h2 class="mb-3">Career goals</h2>
+          <p class="text-secondary">
+            As a student who has completed the FUNiX coporate certification. I
+            hope to work as a Fullstack Developer. I want to apply the knowledge
+            I have acquired and constantly learn to develop myself, as well as
+            complete all assigned work to the best of my ability.
+          </p>
+        </div>
+        <div
+          id="about"
+          class="px-sm-5 py-5 px-3 col-sm-6 col"
+          style="
+            background-color: var(--bs-gray-200);
+            box-shadow: 0 0 0 50vw var(--bs-gray-200);
+            clip-path: inset(0 -50vw 0 0);
+          "
+        >
+          <h2 class="mb-3">Personal information</h2>
+          <ul
+            class="list-group list-group-flush"
+            style="
+              --bs-list-group-item-padding-y: 0;
+              --bs-list-group-border-width: 0;
+              --bs-list-group-color: var(--bs-secondary);
+              --bs-list-group-bg: transparent;
+            "
+          >
+            <li class="list-group-item">
+              <span class="text-body">Sex :</span> Male
+            </li>
+            <li class="list-group-item">
+              <span class="text-body">Date of birth :</span>
+              March 4, 2000
+            </li>
+            <li class="list-group-item">
+              <span class="text-body">Phone number :</span>
+              (+84) 0832306105
+            </li>
+            <li class="list-group-item">
+              <span class="text-body">Email :</span>
+              binhtran432k@gmail.com
+            </li>
+            <li class="list-group-item">
+              <span class="text-body">Address :</span>
+              Ho Chi Minh city, Vietnam
+            </li>
+            <li class="list-group-item">
+              <span class="text-body">Website :</span>
+              <a
+                href="https://github.com/binhtran432k"
+                class="text-decoration-none"
+              >
+                https://github.com/binhtran432k
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
 
     <!-- Profile -->
     <section id="profile"></section>
