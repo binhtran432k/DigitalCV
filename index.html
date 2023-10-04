@@ -24,7 +24,30 @@
     <link rel="stylesheet" href="css/font.css" />
   </head>
   <body>
-    <a href="#">Hello World</a>
+    <header>
+      <!-- Banner -->
+      <div
+        id="banner"
+        class="container-fluid text-light text-center position-relative"
+        style="
+          --filter-bg: rgba(var(--bs-dark-rgb), 0.6);
+          background-image: linear-gradient(var(--filter-bg), var(--filter-bg)),
+            url(&quot;images/banner.jpg&quot;);
+          background-position: center;
+          background-size: cover;
+          height: 28rem;
+          max-height: 100vh;
+        "
+      >
+        <div
+          id="banner-info"
+          class="position-absolute start-50 translate-middle-x mt-5"
+        >
+          <h1>Trần Đức Bình</h1>
+          <p class="opacity-75">Full Stack Developer</p>
+        </div>
+      </div>
+    </header>
     <!-- Bootstrap Javascript -->
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
