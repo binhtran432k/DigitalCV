@@ -31,3 +31,7 @@
 .list-group.list-group-dash .list-group-item::before {
   content: "- ";
 }
+
+#certificates .separator {
+  width: 90%;
+}
