@@ -1,0 +1,33 @@
+.list-group.list-group-primary {
+  --bs-list-group-item-padding-y: 0;
+  --bs-list-group-item-padding-x: 1.2em;
+  --bs-list-group-border-width: 0;
+  --bs-list-group-color: var(--bs-secondary);
+  --bs-list-group-bg: transparent;
+}
+.list-group.list-group-primary > .list-group-item {
+  position: relative;
+}
+.list-group.list-group-primary > .list-group-item::before {
+  content: "";
+  top: 0.48em;
+  left: 0.1em;
+  position: absolute;
+  width: 0.5em;
+  height: 0.5em;
+  border-radius: 50%;
+  background-color: var(--bs-primary);
+}
+
+.list-group.list-group-none,
+.list-group.list-group-dash {
+  --bs-list-group-item-padding-y: 0;
+  --bs-list-group-item-padding-x: 0;
+  --bs-list-group-border-width: 0;
+  --bs-list-group-color: var(--bs-secondary);
+  --bs-list-group-bg: transparent;
+}
+
+.list-group.list-group-dash .list-group-item::before {
+  content: "- ";
+}
