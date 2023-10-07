@@ -35,3 +35,32 @@
 #certificates .separator {
   width: 90%;
 }
+
+.stretched-link:hover .img-link {
+  filter: brightness(80%);
+}
+
+/* Custom grid system */
+.grid {
+  display: grid !important;
+  grid-template-columns: repeat(12, 1fr) !important;
+}
+
+.g-col-lg-6,
+.g-col-lg-3,
+.g-col {
+  grid-column-end: span 12;
+}
+
+.g-row {
+  grid-row-end: span 12;
+}
+
+.g-row-index-lg-1,
+.g-row-index-lg-8 {
+  grid-row-start: initial;
+}
+
+.g-row-7 {
+  grid-row-end: span 7;
+}
